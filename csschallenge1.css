@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('MaSuperPolice.eot') format('eot'),
+         url('MaSuperPolice.woff') format('woff'),
+         url('MaSuperPolice.ttf') format('truetype'),
+         url('MaSuperPolice.svg') format('svg');
+}
+.blocpage{
+    flex-direction: initial;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*identité et menu*/
+header{
+    color: white;
+    display: flex;
+    background-color: #5CA1F1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    font-weight: bold;
+}
+.identite{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5CA1F1;
+}
+/* aspect menu*/
+.menu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.justepourlacouleur{
+    background-color: #5CA1F1;
+    margin-left: -80px;
+    margin-top: -80px;
+    margin-right: -80px;
+    margin-bottom: 50px;
+}
+li{
+    margin-left: 20px;
+}
+
+/* aménagement global page 1* (fond bleu puis fond blanc)*/
+.page1{
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 80px;
+}
+/* aménagement div1 de la partie sur fond bleu*/
+.div1{
+    display: flex;
+    height: 500px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5CA1F1;
+    box-sizing: border-box;
+
+}
+.textedesigner{
+    height: auto;
+    width: 35%;
+    font-size: 30px;
+    margin: 10px 30px 10px 30px;
+    color: blanchedalmond;
+    font-size: 2.5em;
+}
+.texte{
+    font-weight: bolder
+    color: white;
+    height: 50%;
+    width: 50%;
+}
+.img-alien{
+    display: flex;
+    align-items: flex-start;
+  }
+  /* div bas de page sur fond blanc (boutons et texte à droite)*/
+.textesetlogos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #5995DA;   
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;    
+    border-radius: 5px;
+    width: 180px;
+    margin: 20px auto;
+  }
+.lesboutons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.button2{
+    display: block;
+    color: #5995DA;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5995DA;
+    width: 170px;
+    margin: 20px auto;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+}
+.blablagauche{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 40%;
+    margin-left: 20px;
+}
+.blablagauche p{
+    text-decoration: grey;
+    font-weight: 10px;
+}
+.barreverticale  /* séparation côté droit avec boutons et texte gauche*/{
+    height: 50px;  
+    border: 0.1em solid #5995DA;
+    margin-top: 55px;
+    align-items: center;
+}
+.blabladroite
+{
+    height: 40%;
+    width: 40%;
+}
+.logos{
+    margin: 50px;
+    padding: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* aménagement global page 2 "découvrez mon travail"*/
+.page2{
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+.titreettexte{
+    display: flex;
+    flex-direction: column;
+}
+.titreh1{
+    align-items: flex-start;
+    order: 0;
+    margin-top: 50px;
+}
+.lagrosseboitequimanque{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-left: 5px;
+}
+  /* div texte gauche "découvrez mon travail"*/
+.avoirlair{
+    width: 350px;
+    height: 190px;
+    font-size: 18px;
+    order: 1;
+    margin-left: 250px;
+    margin-right: 80px;
+}
+.ecrans{
+    display: flex;
+    margin-right: 0px;
+    height: auto;
+    width: auto;
+}
+.separateur  /* séparation côté droit avec boutons et texte gauche*/{
+    width: 80px;  
+    border: 0.1em solid #5995DA;
+    margin-top: 55px;
+    align-items: center;
+    margin-left: 130px;
+}
+/* aménagement page 3*/
+.page3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.royal{
+    text-justify: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.guillemet{
+    justify-content: flex-start;
+    font-size: 3em;
+    font-weight: bold;
+    margin-right: 1100px;
+    border: ;
+}
+.separateur  /* séparation de la citation et de l'image*/{
+    width: 60px;  
+    border: 0.1em solid #5995DA;
+    margin-top: 55px;
+    align-items: left;
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 110px;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.contact{
+    text-align: start;
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.cadrecontact{
+    font-size: 1.9em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 40%;
+    order: 0;
+}
+.separateur2{
+    width: 60px;  
+    border: 0.1em solid #5995DA;
+    align-items: left;
+    margin-left: 430px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-color: black;
+    order: 1;
+}
+
+.petiteboitesouscontact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-left: 430px;
+    margin-bottom: 40px;
+    width: 50%;
+    order: 2;
+}
+/* élementes du footer*/
+.footer{
+    display: flex;
+    background-color: #5CA1F1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start
+}
+.identite2{
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #5CA1F1;
+    font-weight: 500;
+    color: white;
+}
+.reseauxsociaux{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rs{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.grosseboitequienglobetout{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5CA1F1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+.idemenu{
+    display: flex;
+    background-color: #5CA1F1;
+    justify-content: space-around;
+    color: white;
+}
